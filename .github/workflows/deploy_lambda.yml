@@ -1,4 +1,4 @@
-name: Deploy Lambdaa
+name: Deploy Lambda
 
 on:
   pull_request:
