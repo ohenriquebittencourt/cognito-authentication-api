@@ -33,5 +33,5 @@ resource "aws_lambda_function" "my_lambda_function" {
   runtime       = "python3.8"
 
   role = aws_iam_role.lambda_role.arn
-
+  depends_on = [ aws_iam_role.lambda_role ]
 }
